@@ -27,7 +27,7 @@ namespace GradeBook.GradeBooks
             {
                 return 'A';
             }
-            else if (grades[(threshold * 2) - 1 ] <= averageGrade)
+            else if (grades[(threshold * 2) - 1] <= averageGrade)
             {
                 return 'B';
             }
@@ -41,7 +41,7 @@ namespace GradeBook.GradeBooks
             }
             else
             {
-                return 'F';
+                return 'G';
             }
         }
     }
